@@ -69,11 +69,11 @@ box-sizing: border-box;
     position: relative;
     animation-name: animate;
     animation-delay: 1s;
-    animation-timing-function: linear;
+    animation-timing-function:linear; 
     animation-duration: 10s;
     animation-iteration-count: 5;
-    animation-direction: normal;
-    animation-fill-mode: forwards;
+    animation-direction: alternate-reverse;
+    animation-fill-mode:forwards;
 }
 .b2{
      
@@ -96,7 +96,8 @@ box-sizing: border-box;
 @keyframes animate{
     0% {
         background-color: aliceblue;
-        left: 0;top: 0;
+        left: 0;
+        top: 0;
     }
     25%{
         background-color: burlywood;

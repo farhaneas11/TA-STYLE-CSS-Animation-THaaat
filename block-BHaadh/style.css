@@ -87,8 +87,7 @@ table {
           animation-duration: 10s;
   -webkit-animation-iteration-count: 5;
           animation-iteration-count: 5;
-  -webkit-animation-direction: normal;
-          animation-direction: normal;
+  animation-direction: alternate-reverse;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
 }
